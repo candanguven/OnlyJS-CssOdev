@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .dotted-bold-divider{
+        border: 0;
+    border-bottom: 5px dashed #04724D;
+    background: #210B2C;
+    }
+</style>
+</head>
+<body>
+    <h1>CSS Hakkında Genel Bilgi </h1>
+    <h3>CSS Nedir?</h3>
+   <p>CSS (Cascading Style Sheets), HTML ve JavaScript gibi, internet sayfalarının kodlanmasında kullanılan 3 ana teknolojiden biridir.
+    <br>
+    <br>
+CSS, bir HTML sayfasının nasıl görüntüleneceğini 
+tarif eder.
+Bu tarifin içinde sayfadaki başlık, metin, resim, 
+video gibi öğelerin görsel özelliklerinin yanı sıra, 
+sayfa yerleşimi ve bu yerleşimin farklı 
+ekranlarda, cihazlarda,ekran, kağıt ya da diğer ortamlarda
+ nasıl değişeceği bilgisi de
+ bulunur.</p>
+<br>
+<h3>CSS &apos;in tarihçesi hakkında kısa bir bilgi</h3>
+<p>
+    CSS ilk kez 10 Ekim 1994 tarihinde, CERN’de Tim Barners-Lee 
+    ile birlikte çalışmakta olan Hakon Wium Lie tarafından önerilmiştir.
+     Bunun ardından W3C (Dünya Çapındaki Ağ Birliği), çeşitli forum ve
+      eposta listelerinde yapılan birkaç farklı stil sayfası dili 
+      taslağını da göz önünde bulundurarak, 1996 yılında ilk CSS 
+      önerisini sunmuştur (CSS1).
+<br>
+<br>
+İnternet kullanımının yaygınlaşması ve kullanım amaçlarının çeşitlenmesiyle 
+doğan yeni ihtiyaçlar, W3C’nin 12 Mayıs 1998’de CSS2 önerisini sunmasıyla 
+sonuçlanmıştır. Bunun hemen ardından çalışmalarına başlanan CSS3 ise, 
+tarayıcı desteği artmış olmasına rağmen 2016’da halen geliştirilme 
+aşamasındadır.
+</p>
+<h3>Neden CSS?</h3>
+<P>
+    HTML, içeriğin nasıl görüntüleneceğini, sayfaya nasıl yerleşeceğini
+     belirlemek için tasarlanmış bir dil değildir. HTML’nin amacı içeriği
+      tarif etmek, içeriğin hiyerarşisini belirlemektir. Sayfanın başlığı
+       nedir, sayfadaki bağlantılar hangileridir, alt alta dizili bu 
+       satırlar bir liste midir yoksa sıradan paragraflar mıdır? 
+       HTML’nin işi bu soruların cevaplarını vermektir. Başlık kırmızı mı
+        olsun, logo büyük mü olsun, sol üstte mi olsun? HTML bunlara 
+        karışmaz.
+        <br>
+        <br>
+
+CSS tam burada devreye girer. CSS’in işlevi neyin, nerede, nasıl 
+görüntüleneceğini tarif etmektir. Mesela logonun sayfanın sol üst köşesini
+ tamamıyla kaplayacak şekilde görüntülenmesi CSS’in sorumluluk alanındadır. 
+ Bir ay sonra logonun sağ üst köşenin tamamını kaplaması icap ettiğinde,
+  HTML koduna veya logonun yer aldığı resim dosyasına hiç dokunmadan bu
+   işi gerçekleştirmek yine CSS’le yapılacaktır.
+
+CSS’in sağladığı avantajların başlıcaları şunlardır:</P>
+<ul>
+    <li><strong>Güncelleme kolaylığı: </strong>Tüm bir sitenin görselleştirme bilgisi, 
+        bir veya birkaç CSS dosyasında tutulabilir. Her sayfanın görsel 
+        tarifinin kendi içinde tanımlandığı bir yapıyla kıyaslandığında bu, 
+        sitenin bakımı ve güncellemesi açısından müthiş bir avantajdır. 
+        1000 sayfalık bir sitede başlıkları bir punto büyütmek gerektiğinde, 
+        CSS kullanan kişi tek bir dosyada tek bir satırı günceller.
+         Görselleştirmeyi ayrı bir katman olarak ayırmamış kişi, bin sayfayı 
+         ayrı ayrı güncellemek durumundadır.
+        </li>
+        <br>
+    <li>
+        
+       <strong>Veri trafiği tasarrufu:</strong>  Tüm stiller birkaç tane CSS dosyasında bulunduğundan,
+         veri trafiğinde ölçülebilir bir tasarruf sağlanır. Ayrı olarak kodlanan
+          CSS dosyası, bir kere indirildikten sonra tarayıcı tarafından saklanır.
+           Aynı CSS dosyasını kullanan diğer sayfalarda, saklanan bu dosya 
+           kullanılır. Aynı dosya bir daha indirilmez.
+    </li>
+    <br>
+    <li>
+       <strong>İçerik esnekliği:</strong>  İçerik ile görsel tasarım ayrıldığında, aynı içeriği 
+        farklı farklı ortamlarda kullanmak kolaylaşır. Mesela aynı içeriği 
+        hem anasayfada, hem iç sayfada, hem RSS feed için hem de ekran okuyucular 
+        için kullanabilirsiniz.
+    </li>
+    <br>
+    <li>
+      <strong>Güncel kodlama stratejilerine imkan sağlama:</strong>   Görsel tasarımın içerikten ayrı oluşu,
+         artık vaz geçilmez bir strateji haline gelmiş olan responsive tasarım için zorunludur.
+          Böylelikle her cihaz, her ekran boyu için farklı bir sayfa yapmak zorunluluğu
+           ortadan kalkar.
+    </li>
+   
+</ul>
+
+<br>
+<hr class="dotted-bold-divider">
+<br>
+<h2>Öğrenciler</h2>
+<table width="400" border="3">
+    <thead>
+        <tr id="baslik" >
+           
+            <th>İsim</th>
+            <th>Soyisim</th>
+            <th>Sınıfı</th>
+            <th>Ortalaması</th>
+        </tr>
+
+    </thead>
+    <tbody>
+        <tr style="background-color: #764134; color: black;">
+            <td>Ahmet</td>
+            <td>Mehmetoğlu</td>
+            <td>5/A</td>
+            <td>85</td>
+        </tr>
+        <tr style="background-color: #093A3E; color: black;">
+            <td>Serenay</td>
+            <td>Sarıkaya</td>
+            <td>6/B</td>
+            <td>92</td>
+        </tr>
+        <tr style="background-color: #E3D8F1; color: black;">
+            <td>Buğra</td>
+            <td>Közçivit</td>
+            <td>7/C</td>
+            <td>65</td>
+        </tr>
+        <tr style="background-color: #EFCB68; color: black;">
+            <td>Demir</td>
+            <td>Çelik</td>
+            <td>8/D</td>
+            <td>100</td>
+        </tr>
+        <tr style="background-color: #7E9181;color: black;">
+            <td>Ayşe</td>
+            <td>Fatma</td>
+            <td>7/A</td>
+            <td>80</td>
+        </tr>
+    </tbody>
+</table>
+</body>
+</html>

@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(33, 11, 44);
+    color:#CBD4C2;
+}
+h1{
+    color: #D81159;
+}
+h2{
+    color: rgba(5, 142, 217,0.5);
+}
+h3{
+    color:#F96900;
+}
+#baslik{
+    height: 40px; 
+    background-color:#FFB20F; 
+    color: black;
+}
+/* .dotted-bold-divider{
+    border-top: 5px dashed #04724D;
+} */
